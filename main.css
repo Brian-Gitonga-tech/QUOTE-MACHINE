@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(178	218	251) !important;
+}
+#quote-box {
+    border: 1px solid black;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    padding: 35px;
+    display: inline-block;
+}
+
+#text {
+  font-size: 1em;
+  margin-right: 0.4em;
+  margin-left: 20px;
+}
+
+#author {
+    width: 450px;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+
+}
+
+#scissors {
+    border: 1px solid black;
+    padding: 10px;
+    color: red;
+}
+
+#tweet-quote {
+    color: black;
+}
+
+#new-quote {
+    margin: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 1px;
+}
